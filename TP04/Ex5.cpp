@@ -55,7 +55,7 @@ int sum(List *ls) {
 }
 
 int main() {
-    cout << "\n*** A program to store number as many as possible: ***\n";
+    cout << "\t*** A program to store number as many as possible: ***\n";
 
     List *myList = createEmptyList();
     int input;
@@ -69,9 +69,9 @@ int main() {
             zeroCount++;
 
             if (zeroCount == 1) {
-                cout << "\nYou have entered the number 0 once. Only 1 more left. We will quit the program.\n";
+                cout << "\tYou have entered the number 0 once. Only 1 more left. We will quit the program.\n";
             } else if (zeroCount == 2) {
-                cout << "\nYou have entered the number 0 twice so far. The program is going to stop now.\n";
+                cout << "\tYou have entered the number 0 twice so far. The program is going to stop now.\n";
                 break;
             }
 
